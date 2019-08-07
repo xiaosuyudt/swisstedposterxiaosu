@@ -1,0 +1,111 @@
+body{
+	width: 100vw;
+	height: 100vh;
+	margin: 0 auto;
+	background-color: #141518;
+	font-family: 'Roboto', sans-serif;
+}
+
+.header{
+	display: flex;
+	height:15%;
+}
+
+.header-box{
+	width: 100%;
+	padding-top:15px;
+	padding-left:5px;
+	height:100%;
+	background-color: #CD0077;
+	display: flex;
+	justify-content: space-around;
+}
+
+.header-box p{
+	font-size: 1.6vh;
+	font-weight: bold;
+	color: white;
+}
+
+.design-container{
+	display: block;
+	height: 85%;
+}
+
+.title{
+	height: 35%;
+	width: 100%;
+	display: table;
+	position: absolute;
+
+}
+
+.title h1{
+	position: absolute;
+	margin-bottom: -50px;
+	margin-top: 100px;
+	font-size: 20vmin;
+	color: #E1C408;
+	text-align: center;
+	opacity: 0.66;
+}
+
+.title h2{
+	position: absolute;
+	padding-left: 30px;
+	margin-bottom: -50px;
+	margin-top: 100px;
+	font-size: 20vmin;
+	color: #009ECB;
+	text-align: center;
+	opacity: 0.66;
+}
+
+.title h3{
+	position: absolute;
+	padding-left: 60px;
+	margin-bottom: -50px;
+	margin-top: 100px;
+	font-size: 20vmin;
+	color: #CD0077;
+	text-align: center;
+	opacity: 0.5;
+	transition: width 1s;
+    transition-timing-function: linear;
+}
+
+h3:hover {
+	transform: rotate(20deg);
+}
+
+     
+#translate1{
+	position: absolute;
+	margin-top: -200px;
+	margin-left: -500px;
+	width: 80vw;
+	height: 20vw;
+	background-color: #009ECB;
+	margin-bottom: 60px;
+	opacity: 0.66;
+}
+
+#translate1:hover {
+	transform: translate(800px);
+}
+
+#translate2{
+	position: absolute;
+	margin-top: -500px;
+	margin-left: 500px;
+	width: 80vw;
+	height: 20vw;
+	background-color: #CD0077;
+	margin-bottom: 10px;
+	opacity: 0.66;
+}
+
+#translate2:hover {
+	transform: translate(-800px);
+}
+
